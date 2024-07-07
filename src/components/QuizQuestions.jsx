@@ -16,7 +16,7 @@ const QuizQuestions = ({ setStartQuiz }) => {
     const getData = async () => {
       try {
         const response = await axios.get(
-          `https://quiz-game-backend.onrender.com/data`
+          `https://quiz-game-backend.onrender.com/data` 
         );
         setDataArray(response.data);
         setLoading(false)
