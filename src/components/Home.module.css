@@ -1,0 +1,33 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.bgImage{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.heading{
+   width: 100%;
+   position: absolute;
+   top: 0;
+   text-align: center;  
+}
+.heading h1{
+  padding: 20px 10px;
+  font-size: 60px;
+  background: rgba(0,0,0,0.5);
+}
+.heading p{
+  color: black;
+  padding: 20px 10px 10px 10px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  line-height: 2;
+}
+.button{
+  font-size: 30px;
+  border: 2px solid black;
+}

@@ -1,0 +1,17 @@
+.container{
+   min-height: 100vh;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   text-align: center;  
+}
+.question{
+  width: 70%;
+  margin: 40px auto 80px;
+  font-size: 2.5rem;
+  border-radius: 1.5rem;
+}
+.btn{
+  margin: 10px 20px;
+  font-size: 1.4rem;
+}

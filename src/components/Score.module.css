@@ -1,0 +1,12 @@
+.container{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.heading{
+  font-size: 4rem;
+}
+.btn{
+  margin: 10px 20px;
+  font-size: 1.4rem;
+}
