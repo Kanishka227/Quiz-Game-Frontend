@@ -10,12 +10,13 @@ const QuizQuestions = ({ setStartQuiz }) => {
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [loading, setLoading] = useState(true);
-  const API_URL = import.meta.env.VITE_API_URL;
+  
 
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await axios.get(`${API_URL}/data`
+        const response = await axios.get(
+          `https://quiz-game-backend.onrender.com/data`
         );
         setDataArray(response.data);
         setLoading(false)
