@@ -15,8 +15,7 @@ const QuizQuestions = ({ setStartQuiz }) => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await axios.get(
-          `${API_URL}/data`
+        const response = await axios.get(`${API_URL}/data`
         );
         setDataArray(response.data);
         setLoading(false)
